@@ -49,6 +49,9 @@ a:hover {
         .wrapper, .header, footer {
             padding: 1em;
         } 
+        #main-content > .main-content-img > img {
+            margin-bottom: -1.1em;
+        }
     }
 
 /* header */
