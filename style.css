@@ -45,6 +45,12 @@ a:hover {
     margin: 0 auto;
 }
 
+@media screen and (max-device-width: 600px ) {
+        .wrapper, .header, footer {
+            padding: 1em;
+        } 
+    }
+
 /* header */
 header {
     display: grid;
@@ -110,7 +116,8 @@ footer {
 }
 
 .footer-upper p {
-    color: var(--dark-grey);
+    color: var(--pinkish-red);
+    opacity: .8;
 }
 
 
